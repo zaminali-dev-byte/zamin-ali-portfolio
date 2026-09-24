@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home | Syed Zamin Ali</title>
+  <style>
+    *{box-sizing:border-box;margin:0;padding:0}
+    html,body{width:100%;min-height:100%;background:#0b1120}
+    body{font-family:Arial,sans-serif;color:#f8fafc;line-height:1.6}
+    a{color:inherit;text-decoration:none}
+    .wrap{max-width:1000px;margin:0 auto;padding:0 5%}
+    .top{width:100%;padding:18px 0;border-bottom:1px solid #1e293b;background:#0b1120}
+    .top-inner{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px}
+    .logo{font-size:22px;font-weight:bold}
+    .logo span{color:#2dd4bf}
+    .menu{display:flex;gap:18px;flex-wrap:wrap}
+    .menu a{color:#cbd5e1;font-size:15px}
+    .menu a:hover,.menu a.active{color:#2dd4bf}
+    .hero{min-height:75vh;display:flex;align-items:center;padding:60px 0}
+    .hello{color:#2dd4bf;font-size:14px;letter-spacing:1px;text-transform:uppercase;margin-bottom:8px}
+    .hero h1{font-size:clamp(32px,6vw,46px);margin-bottom:10px;line-height:1.15}
+    .hero h2{font-size:clamp(16px,3vw,20px);color:#cbd5e1;font-weight:normal;margin-bottom:16px}
+    .hero p{color:#94a3b8;max-width:560px;margin-bottom:24px}
+    .btn{padding:12px 22px;border-radius:6px;font-weight:bold;display:inline-block;margin-right:10px}
+    .btn-fill{background:#0d9488;color:#fff}
+    .btn-line{border:2px solid #0d9488;color:#2dd4bf}
+    .footer{text-align:center;padding:24px 5%;color:#64748b;font-size:13px;border-top:1px solid #1e293b}
+  </style>
+</head>
+<body>
+  <header class="top"><div class="wrap top-inner">
+    <a href="home.html" class="logo">Zamin<span>Ali</span></a>
+    <nav class="menu">
+      <a href="home.html" class="active">Home</a>
+      <a href="about.html">About</a>
+      <a href="projects.html">Projects</a>
+      <a href="resume.html">Resume</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div></header>
+  <section class="hero"><div class="wrap">
+    <p class="hello">Hello, I'm</p>
+    <h1>Syed Zamin Ali</h1>
+    <h2>Computer Science Student &amp; Aspiring Full-Stack Developer</h2>
+    <p>Building modern web applications with the MERN stack — React, Node.js, Express, and MongoDB. Passionate about clean APIs, responsive UI, and solving real-world problems.</p>
+    <a href="projects.html" class="btn btn-fill">View My Work</a>
+    <a href="mailto:syedzamin849@gmail.com?subject=CV%20Request" class="btn btn-line">Download CV</a>
+  </div></section>
+  <footer class="footer">&copy; 2026 Syed Zamin Ali</footer>
+</body>
+</html>

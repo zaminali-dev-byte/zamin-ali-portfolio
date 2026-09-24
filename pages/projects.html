@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects | Syed Zamin Ali</title>
+  <style>
+    *{box-sizing:border-box;margin:0;padding:0}
+    html,body{width:100%;min-height:100%;background:#0b1120}
+    body{font-family:Arial,sans-serif;color:#f8fafc;line-height:1.6}
+    a{color:inherit;text-decoration:none}
+    .wrap{max-width:1000px;margin:0 auto;padding:0 5%}
+    .top{width:100%;padding:18px 0;border-bottom:1px solid #1e293b;background:#0b1120}
+    .top-inner{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px}
+    .logo{font-size:22px;font-weight:bold}
+    .logo span{color:#2dd4bf}
+    .menu{display:flex;gap:18px;flex-wrap:wrap}
+    .menu a{color:#cbd5e1;font-size:15px}
+    .menu a:hover,.menu a.active{color:#2dd4bf}
+    .page{min-height:75vh;padding:50px 0}
+    h1{font-size:32px;margin-bottom:8px}
+    h1::after{content:"";display:block;width:40px;height:3px;background:#14b8a6;margin-top:8px;margin-bottom:20px}
+    .sub{color:#94a3b8;margin-bottom:20px}
+    .card{background:#1e293b;border:1px solid #334155;border-radius:8px;padding:18px;margin-bottom:14px}
+    .card h3{color:#fff;margin-bottom:8px;font-size:17px}
+    .card p{color:#94a3b8;font-size:15px;margin-bottom:10px}
+    .tag{display:inline-block;background:#0f172a;border:1px solid #334155;color:#cbd5e1;font-size:12px;padding:4px 10px;border-radius:4px;margin-right:6px;margin-top:4px}
+    .footer{text-align:center;padding:24px 5%;color:#64748b;font-size:13px;border-top:1px solid #1e293b}
+  </style>
+</head>
+<body>
+  <header class="top"><div class="wrap top-inner">
+    <a href="home.html" class="logo">Zamin<span>Ali</span></a>
+    <nav class="menu">
+      <a href="home.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="projects.html" class="active">Projects</a>
+      <a href="resume.html">Resume</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div></header>
+  <main class="page"><div class="wrap">
+    <h1>Projects</h1>
+    <p class="sub">Selected projects from coursework and personal development.</p>
+    <div class="card">
+      <h3>Destino App (In Progress)</h3>
+      <p>Travel management web app with MERN stack — booking, tours, and user login.</p>
+      <span class="tag">MongoDB</span><span class="tag">Express.js</span><span class="tag">React.js</span><span class="tag">Node.js</span>
+    </div>
+    <div class="card">
+      <h3>Cash Flow Minimizer</h3>
+      <p>C++ project using graph algorithms to reduce financial transactions.</p>
+      <span class="tag">C++</span><span class="tag">Graphs</span><span class="tag">Algorithms</span>
+    </div>
+    <div class="card">
+      <h3>Face Recognition System</h3>
+      <p>Python + OpenCV project for face detection and recognition.</p>
+      <span class="tag">Python</span><span class="tag">OpenCV</span>
+    </div>
+  </div></main>
+  <footer class="footer">&copy; 2026 Syed Zamin Ali</footer>
+</body>
+</html>
